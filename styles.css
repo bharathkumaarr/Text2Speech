@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gambarino';
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(211, 211, 248);
+    padding: 20px;
+    color: lavender;
+}
+.hero {
+    /* background: linear-gradient(45deg,  #1a1a1a, #494949, #1a1a1a ); */
+    background: linear-gradient(45deg, royalblue, rgb(118, 150, 210), royalblue );
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    border-radius: 50px;
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .container {
+
+    
+    border-radius: 50px;
+    width: 65%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero .container textarea {
+    background-color:transparent;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding: 20px;
+    outline: 0;
+
+    resize: none;
+
+    color: lavender;
+    font-size: 18px;
+}
+textarea::placeholder {
+    font-size: 18px;
+    color: lavender;
+}
+.hero .container .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    /* border: solid; */
+}
+select {
+    background-color: transparent;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+    height: 75px;
+    width: 75%;
+    outline: none;
+    margin-right: 10px;
+    padding: 10px 20px;
+
+    appearance: none;
+    color: lavender;
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+.hero .container .row .convert-btn {
+    background-color: royalblue;
+    color: lavender;
+    border: none;
+    width: 25%;
+    font-size: 2.5rem;
+    border-radius: 50px;
+    padding: 10px 20px;
+
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.textRandom {
+    margin-top: 20%;
+    transform: rotate(-20deg);
+    font-size: 1rem;
+    color: #111;
+    /* border: solid; */
+}
+.textRandom img {
+    width: 50px;
+    height: 50px;
+    margin-left: 40%;
+    margin-top: 10%;
+
+}
